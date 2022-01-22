@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import BirthdayList from "./component/BirthdayList";
+import { birthdays, date } from "./birthdays.js";
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="container">
+        <div className="date_counts">
+          <h3>
+            {date} - {birthdays.length} Birthdays
+          </h3>
+        </div>
+        <BirthdayList birthdays={birthdays} />
+      </div>
     </div>
   );
 }
