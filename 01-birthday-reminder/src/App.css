@@ -14,6 +14,12 @@
   height: 100vh;
 }
 
+.header__container {
+  position: fixed;
+  top: 5px;
+  font-size: 24px;
+  color: white;
+}
 .container {
   background-color: #b40081;
   width: 40%;
@@ -110,6 +116,13 @@ button:hover {
   transform: scale(1.2);
 }
 /* end of clear button style */
+
+.madeby__container {
+  position: fixed;
+  bottom: 0;
+  font-size: 18px;
+}
+
 /* start  of scroll bar style */
 ::-webkit-scrollbar {
   width: 15px;
@@ -144,7 +157,7 @@ button:hover {
 /* Small screens */
 @media only screen and (max-width: 600px) {
   .App {
-    background-color: rgb(158, 215, 243);
+    background-color: #d070fd;
   }
 
   .container {
