@@ -17,6 +17,12 @@
 .container {
   background-color: #b40081;
   width: 40%;
+  height: 75%;
+}
+
+.date_counts {
+  height: 10%;
+  justify-items: center;
 }
 .date_counts > h3 {
   font-size: 48px;
@@ -28,7 +34,7 @@
   background-color: rgb(157, 0, 113, 0.6);
   /* background-color: rgb(243, 243, 243); */
   margin: 10px;
-  height: 63vh;
+  height: 75%;
   overflow-y: scroll;
 }
 .main__container {
@@ -86,6 +92,24 @@ img {
 
 /* end of individual person detail */
 
+/* start of clear button style */
+button {
+  background-color: #d070fd;
+  color: whitesmoke;
+  font-family: monospace;
+  font-weight: 900;
+  font-size: 24px;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  transition: ease-in;
+  margin-top: 5px;
+}
+
+button:hover {
+  transform: scale(1.2);
+}
+/* end of clear button style */
 /* start  of scroll bar style */
 ::-webkit-scrollbar {
   width: 15px;
@@ -127,6 +151,9 @@ img {
     width: 95%;
   }
 
+  .date_counts > h3 {
+    font-size: 24px;
+  }
   .birthday_container::-webkit-scrollbar {
     display: none;
   }
@@ -146,5 +173,22 @@ img {
   .birthday_container {
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
+  }
+
+  button {
+    background-color: #d070fd;
+    color: whitesmoke;
+    font-family: monospace;
+    font-weight: 900;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 5px;
+    border: none;
+    transition: ease-in;
+    margin-top: 5px;
+  }
+
+  button:hover {
+    transform: scale(1.1);
   }
 }
