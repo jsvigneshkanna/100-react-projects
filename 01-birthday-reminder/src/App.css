@@ -1,3 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+
+* {
+  font-family: "Boogaloo", cursive;
+  color: whitesmoke;
+}
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  background-color: #d070fd;
+  height: 100vh;
+}
+
+.container {
+  background-color: #b40081;
+  width: 40%;
+}
+.date_counts > h3 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* start of individual person container */
+.birthday_container {
+  background-color: rgb(157, 0, 113, 0.6);
+  /* background-color: rgb(243, 243, 243); */
+  margin: 10px;
+  height: 63vh;
+  overflow-y: scroll;
+}
+.main__container {
+  display: flex;
+  flex-direction: row;
+  height: 140px;
+  /* width: 580px; */
+  align-items: center;
+  margin-left: 40px;
+  /* background-color: rgba(233, 195, 222, 0.3); */
+}
+
+.image__container {
+  width: 40%;
+}
+img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+/* end of individual person container */
+
+/* start of individual person detail */
+
+.detail__container {
+  margin-left: 20px;
+  text-align: left;
+  width: 50%;
+}
+
+.detail__container > p {
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+
+.detail__container > p > span {
+  letter-spacing: 3px;
+  color: rgb(204, 238, 10);
+}
+
+/* Share icons styles */
+.share__container {
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+.share__container > i {
+  margin-bottom: 3px;
+  font-size: 18px;
+  color: greenyellow;
+}
+/* end of share icons styles */
+
+/* end of individual person detail */
+
+/* start  of scroll bar style */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f4f6f8;
+  box-shadow: inset 0 0 10px rgb(109, 158, 231);
+  border-radius: 10px;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-track:hover {
+  background: #99f387;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(49, 117, 156);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(173, 83, 83);
+}
+/* end of scroll bar style */
+
+/* medium screens */
+@media only screen and (max-width: 1248px) {
+  .container {
+    width: 60%;
+  }
+}
+/* Small screens */
+@media only screen and (max-width: 600px) {
+  .App {
+    background-color: rgb(158, 215, 243);
+  }
+
+  .container {
+    width: 95%;
+  }
+
+  .birthday_container::-webkit-scrollbar {
+    display: none;
+  }
+
+  img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .detail__container > p {
+    font-size: 22px;
+    letter-spacing: 0;
+  }
+  .share__container {
+    margin-right: 20px;
+  }
+  .birthday_container {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
 }
