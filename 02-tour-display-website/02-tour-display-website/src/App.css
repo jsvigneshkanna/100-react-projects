@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Boogaloo&display=swap");
+
+* {
+  font-family: "Boogaloo", cursive;
+  color: whitesmoke;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: #d070fd;
+  height: 100vh;
+}
