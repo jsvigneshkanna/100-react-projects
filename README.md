@@ -9,6 +9,9 @@ I am building many react projects inspired from different resources. Come lets a
 
 ## References
 
-1. [Font awesome CDN](https://cdnjs.com/libraries/font-awesome)
+
+1. [John SMilga YT 15 projects](https://github.com/john-smilga/react-projects/blob/master/02-tours/final/src/App.js)
+2. [John Smilga 15 projects Github](https://github.com/john-smilga/react-projects/blob/master/02-tours/final/src/App.js) 
+3. [Font awesome CDN](https://cdnjs.com/libraries/font-awesome)
 
 EAAPQ26Xp4u8BAH00yjZCZAeRg4clwTYGOiB8e5narOAOay4l1HWwMXNdZC9iPZCLbaqxrduZCte35384WrClpxlo3inKLBfi2cCpzLsQ1ZCNyMIf5q5lRZA460pJY5RsYZBpzkk15MFnWNOhwj2Ez9bFcPDSwgMRgPVlWqCyBsAsbaSK8xAR4eowbFRjnlKSFSDYlmrKlC7VtZAevM554BsNOvkgx0hoAV4GXdIfGDoIULHtL3CauOLow
